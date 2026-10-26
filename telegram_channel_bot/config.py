@@ -34,7 +34,7 @@ class Config:
     BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8881658187:AAGG7m_EqwfHFj7ehAbP9qyVOj7CGmkmsKM")
 
     # MongoDB Connection Settings
-    MONGO_URI: str = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+    MONGO_URI: str = os.getenv("MONGO_URI", "mongodb+srv://otxstudioofficial1_db_user:MEAH3IXpZFAxHHew@cluster0.n23pbwq.mongodb.net/?appName=Cluster0")
     DATABASE_NAME: str = os.getenv("DATABASE_NAME", "telegram_channel_autofilter")
     MONGO_MAX_POOL_SIZE: int = int(os.getenv("MONGO_MAX_POOL_SIZE", "50"))
     MONGO_MIN_POOL_SIZE: int = int(os.getenv("MONGO_MIN_POOL_SIZE", "5"))
