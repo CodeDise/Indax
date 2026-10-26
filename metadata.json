@@ -1,0 +1,6 @@
+{
+  "name": "TeleIndex — Pyrogram v2 Channel Auto-Filter & Search Bot",
+  "description": "Production-ready Python codebase and interactive simulator for a Telegram Channel Auto-Filter & Search Bot built with Pyrogram v2, uvloop, and Async MongoDB (Motor).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,14 @@
+# Pyrogram v2 & Crypto Speedups
+pyrogram==2.0.106
+tgcrypto==1.2.5
+
+# High-Performance Event Loop (Linux/macOS)
+uvloop==0.21.0; sys_platform != "win32"
+
+# Async MongoDB Driver
+motor==3.6.0
+pymongo==4.9.2
+dnspython==2.7.0
+
+# Environment Management
+python-dotenv==1.0.1
