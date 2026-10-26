@@ -31,7 +31,7 @@ class Config:
     # Telegram MTProto API Credentials (from https://my.telegram.org)
     API_ID: int = int(os.getenv("API_ID", "0"))
     API_HASH: str = os.getenv("API_HASH", "")
-    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "")
+    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8881658187:AAGG7m_EqwfHFj7ehAbP9qyVOj7CGmkmsKM")
 
     # MongoDB Connection Settings
     MONGO_URI: str = os.getenv("MONGO_URI", "mongodb://localhost:27017")
