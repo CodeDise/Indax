@@ -29,8 +29,8 @@ class Config:
     """Centralized configuration settings loaded from environment variables."""
 
     # Telegram MTProto API Credentials (from https://my.telegram.org)
-    API_ID: int = int(os.getenv("API_ID", "0"))
-    API_HASH: str = os.getenv("API_HASH", "")
+    API_ID: int = int(os.getenv("API_ID", "26944587"))
+    API_HASH: str = os.getenv("API_HASH", "7261a455f2a6159b8a2fbfecd1a63004")
     BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8881658187:AAGG7m_EqwfHFj7ehAbP9qyVOj7CGmkmsKM")
 
     # MongoDB Connection Settings
