@@ -41,7 +41,7 @@ class Config:
 
     # Bot Access & Admin Settings
     ADMINS: List[int] = _parse_int_list(os.getenv("ADMINS", "8531489053"))
-    LOG_CHANNEL: int = int(os.getenv("LOG_CHANNEL", "0"))
+    LOG_CHANNEL: int = int(os.getenv("LOG_CHANNEL", "-1004405752303"))
 
     # Search & Pagination Settings
     RESULTS_PER_PAGE: int = int(os.getenv("RESULTS_PER_PAGE", "8"))
