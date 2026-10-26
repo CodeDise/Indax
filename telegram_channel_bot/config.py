@@ -40,7 +40,7 @@ class Config:
     MONGO_MIN_POOL_SIZE: int = int(os.getenv("MONGO_MIN_POOL_SIZE", "5"))
 
     # Bot Access & Admin Settings
-    ADMINS: List[int] = _parse_int_list(os.getenv("ADMINS", ""))
+    ADMINS: List[int] = _parse_int_list(os.getenv("ADMINS", "8531489053"))
     LOG_CHANNEL: int = int(os.getenv("LOG_CHANNEL", "0"))
 
     # Search & Pagination Settings
